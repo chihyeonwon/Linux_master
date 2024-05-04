@@ -1,6 +1,7 @@
 ## 시험일정
 
-## 4월 29일 시험접수
+## 1차 합
+![image](https://github.com/chihyeonwon/Linux_master/assets/58906858/9a80fafc-5686-4a49-a5c2-d48b27e57fb8)
 
 [시험접](https://www.ihd.or.kr/main.do)
 ![image](https://github.com/chihyeonwon/Linux_master/assets/58906858/8fd13521-4242-4d9c-a843-dd5cbbc6da27)
