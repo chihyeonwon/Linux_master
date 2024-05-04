@@ -1,6 +1,6 @@
 ## 시험일정
 
-## 1차 합
+## 24.05.04 1차 합격
 ![image](https://github.com/chihyeonwon/Linux_master/assets/58906858/9a80fafc-5686-4a49-a5c2-d48b27e57fb8)
 
 ## 2차 접수 24.06.08 Seoul 2시
