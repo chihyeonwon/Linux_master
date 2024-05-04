@@ -3,14 +3,8 @@
 ## 1차 합
 ![image](https://github.com/chihyeonwon/Linux_master/assets/58906858/9a80fafc-5686-4a49-a5c2-d48b27e57fb8)
 
-[시험접](https://www.ihd.or.kr/main.do)
-![image](https://github.com/chihyeonwon/Linux_master/assets/58906858/8fd13521-4242-4d9c-a843-dd5cbbc6da27)
-
-![image](https://github.com/chihyeonwon/Linux_master/assets/58906858/285e570e-561b-471d-acb9-f3dd805d0933)
-![image](https://github.com/chihyeonwon/Linux_master/assets/58906858/bae277c1-3028-4ba8-ab0a-fb6404495293)
-![image](https://github.com/chihyeonwon/Linux_master/assets/58906858/f5811343-7582-4c8f-9e7b-0d733dd60640)
-![image](https://github.com/chihyeonwon/Linux_master/assets/58906858/2118dec3-da7f-452c-b7cd-f95280ed113c)
-![image](https://github.com/chihyeonwon/Linux_master/assets/58906858/fee0314f-8aad-45f3-8d5d-8b2c9872c36f)
+## 2차 접수 24.06.08 Seoul 2시
+![image](https://github.com/chihyeonwon/Linux_master/assets/58906858/6f47d706-6aa2-4280-ade9-e8369332b696)
 
 ## 1차 50문제 한 문제 CBT
 ## 2차 80문제 CBT
