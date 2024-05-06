@@ -136,7 +136,30 @@ HISTFILESIZE : 히스토리의 물리적인 크기
 HISTFILE : 히스토리 파일 위치
 HISTTIMEFORMAT : 히스토리 수행 시간 출력 형태 지정
 ```
+## 24.05.07
+```
+가장 먼저 실행되는 프로세스 : init init의 pid는 1
+fork() :새로운 프로세스를 만들때 기존 프로세스를 복제한다.
+exec() : 새로운 프로세스를 만들때 기존 프로세스에 코드를 덮어씌운다.
 
+데몬 : 리눅스 시스템이 부팅 시 자동으로 실행되는 백그라운드 프로세스
+
+stand alone(단독실행) : 서비스 요청이 많은 것을 메모리에 상주시킨다
+ex) http, mysql, nameserver, sendmail
+실행 스크립트 위치 : /etc/inetd.d
+
+inetd 데몬(슈퍼데몬) : 다른 데몬들의 상위에 존재하는 stand alone 데몬
+보안상의 이유로 리눅스 커널 2.4부터 xinetd 가 inetd 역할을 수행
+ex) FTP, telnet,rlogin
+
+시그널
+2 - SIGINT Ctrl+C 입력시 종료
+3 - SIGQUIT Ctrl+\ 입력시 코어덤프
+9 - SIGKILL 종료
+15 - SIGTERM 종료
+19 - SIGSTOP 종료
+20 - SIGTSTP Ctrl+Z 입력 시 프로세스 대기로 전환
+```
 ## 21년 3월 13일 1회 기출
 ```
 
