@@ -290,16 +290,47 @@ cmake는 크로스컴파일을 지원, 평행 빌드 지원, 타임스탬프 지
 ```
 ## 24.05.11
 ```
+프린터 인쇄 시스템 LPRng, CUPS
 
+LPRng : BSD 유닉스 계열, 프린터 스풀링과 네트워크 프린터 서버 지원
+설정 파일 : /etc/printcap
 
+CUPS : 애플이 개발한 오픈 소스 프린팅 시스템
+HTTP 기반의 IPP (포트: 631)를 사용하여 웹 기반으로 프린터를 제어
+설정 파일 : /etc/cups
 
+/etc/cups/cupsd.conf : 프린터 데몬 환경 설정 파일
+/etc/cups/printers.conf : 프린터 큐 환경 설정
+/etc/cups/classes.conf : CUPS 프린터 데몬의 클래스 설정 파일
+cupsd : CUPS의 프린터 데몬
 
+cups 인쇄 시스템 : 로컬 접속으로 프린터를 직접 연결할 수 있다.
+직렬 포트 : /dev/lp0 파일로 가능
+usb 포트 : /dev/usb/lp0 파일로 가능
 
+windows printer via samba : 윈도우 <-> 리눅스 프린터 설정 시 사용 삼바 기반의 smb 프로토콜 사용 smb/cifs
 
+사운드 카드 지원 시스템 : OSS, ALSA
 
+OSS :표준 유닉스에 기반, 유닉스 운영체제에서 사운드를 만들고 캡처
 
+ALSA : 사운드 카드용 장치 드라이버를 제공, gpl 라이센스를 따른다, 사운드 여러 개 장치를 관리
+
+스캐너 지원 : SANE, XSANE
+
+SANE : 이미지 관련 하드웨어를 제워하는 API
+SCSI 스캐너 : /dev/sg0, /dev/scanner로 인식
+usb 스캐너 : /dev/usb/scanner, /dev/usbscanner로 인식
+
+XSANE : X-Windows 기반의 스캐너 프로그램
+x-windows에서 xsane이라고 입력하면 실행
+다양한 장치, 이미지 수정 작업을 할 수 있다.
+```
+## 24.05.11
+```
 
 ```
+
 ## 21년 3월 13일 1회 기출
 ```
 
