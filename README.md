@@ -262,6 +262,43 @@ apt-get 명령어가 의존성과 충돌성 해결을 위해 참조하는 파일
 ```
 ## 24.05.10
 ```
+파일 아카이브 : 다수 개의 파일이나 디렉터리를 하나로 묶는 것
+명령어 tar
+tar -c : 새로운 아카이브 파일 tar 생성
+tar -x : tar로 묶은 것을 원본으로 복원 (묶음 해제)
+tar -t : 아키이브 파일 안의 목록 나열
+tar -f : 아카이브 파일명 지정
+tar -v : 처리하고 있는 파일 정보를 출력
+tar -z : gzip으로 압축하거나 해제
+tar -J : xz 옵션으로 압축 파일인 tar.xz에 사용
+
+압축률 compress < gzip < bzip2 < xz
+
+.Z compress
+.gz gzip
+gzip -l 파일 정보를 나타냄
+gunzip 파일 압축 해제
+zcat 압축 파일의 내용을 출력
+
+.bz2 bzip2, bunzip2
+
+xz -d 강한 파일 압축 해제
+
+컴파일 순서 configure -> make -> make install (일반 파일)
+Mysql의 cmake 는 생성과 설치만 한다. cmake -> make install
+cmake는 크로스컴파일을 지원, 평행 빌드 지원, 타임스탬프 지원
+```
+## 24.05.11
+```
+
+
+
+
+
+
+
+
+
 ```
 ## 21년 3월 13일 1회 기출
 ```
