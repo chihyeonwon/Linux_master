@@ -326,8 +326,43 @@ XSANE : X-Windows 기반의 스캐너 프로그램
 x-windows에서 xsane이라고 입력하면 실행
 다양한 장치, 이미지 수정 작업을 할 수 있다.
 ```
-## 24.05.11
+## 24.05.14
 ```
+bsd 계열 : lpr, lpq, lprm, lpc
+system V 계열 : lp, lpstat, cancel
+
+lpr, lp : 프린터 요청을 한다.
+lpr -# : 인쇄할 매수를 지정
+lp -n : 인쇄할 매수를 지정
+
+lpq : 큐에 있는 작업 목록을 출력
+lpc : 라인프린터 컨트롤 프로그램
+
+lpstat : 프린터 큐의 상태를 확인
+
+alsactl : alsa 사운드 카드를 제어
+alsamixer : 커서 라이브러리 기반의 오디오 프로그램
+cdparanoia : 오디오 CD로 부터 음악 파일 추출
+
+sane-find-scanner : scsi 스캐너와 usb 스캐너 관련 장치 파일을 찾아주는 명령어
+scanimage : 이미지를 스캔
+scanimage -d : sane 장치 파일명 입력
+scanimage --format : 이미지 형식 지정
+scanimage -L : 사용가능한 스캐너 목록 출력
+
+scandf : 여러 개의 사진을 스캔
+
+xcam : GUI 기반으로 스캐너나 카메라로부터 이미지를 스캔
+```
+## 24.05.15
+```
+
+
+
+
+
+
+
 
 ```
 
