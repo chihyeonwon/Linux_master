@@ -423,7 +423,54 @@ gdm : CentOS 운영체제에서 사용, GNOME의 디스플레이 매니저, GTK 
 ```
 ## 24.05.15 X-윈도우 활용
 ```
+리눅스 환경의 각종 애플리케이션과 유틸리티에 대해 그래픽 사용자 인터페이스를 제공
+플랫폼과 독립적으로 작동
+x11, x, x, x window system 이라 한다.
 
+아데나 프로젝트 - Bob Scheifler가 오픈 소스 프로젝트 디자인을 만듬
+x 컨소시엄, 오픈 그룹
+X.org <- 현재의 리눅스 x윈도우 x11r6.8
+
+네트워크 기반, 서버 프로그램, 클라이언트 프로그램으로 나누어 작동
+
+XProtocol - X 서버와 클라이언트 사이에 메시지 타입, 메시지 교환 방식을 규정, 6000포트 이용
+Xlib 라는 저수준 인터페이스와 Xtoolkit이라는 상위 인터페이스를 사용
+
+Xlib - X나 Lisp 언어로 만든 XProtocol 지원 라이브러리, 윈도우 생성, 이벤트 처리 창 조회 같은 라이브러리 제공
+
+XCB - Xlib를 대체하기 위해 등장한 클라이언트 라이브러리 , Xlib 보다 향상된 스레드 기능, 확장성이 뛰어남
+라이브러리 크기가 작고 단순, XProtocol 에 직접 접근 도 가능
+
+X-윈도우 실행 : 터미널 윈도우로 로그인 한 경우에 몇 개의 프로그램을 실행해야 한다
+startx  <- X 윈도우를 실행하는 명령어 시스템 환경을 초기화하고 xinit을 호출
+xinit 에 전달하는 옵션은 --이다.
+
+x-window 강제 종료 <- ctrl + alt + back space
+
+환경 변수 display : $display는 프로세스가 컴퓨터에서 동작하는 방식에 영향을 주는 동적인 값
+x-윈도우 display의 위치를 지정할 수 있다.
+
+윈도우 매니저
+x 윈도우 상에서 창의 배치와 표현을 담당하는 시스템 프로그램
+
+tvm -> fvxm
+afterstep
+window maker
+blackbox
+kwm KDE의 기본 윈도우 매니저
+
+데스크톱 환경 : GUI사용자에게 제공하는 인터페이스 스타일로 데스크톱 관리자라고도 한다. -뒤에 E가 붙음 Environment
+
+KDE : GPL라이선스, QT 툴킷을 기반
+GNOME : GNU에서 만든 GTK+ 라이브러리를 기반
+LXDE, XFCE
+
+디스플레이 매니저 : X Window system 상에서 작동하는 프로그램 뒤에 m이 붙은 것들 manager
+
+xdm, dtlogin, kdm, gdm
+
+kdm : KDE 데스크톱에서 사용하는 디스플레이매니저
+gdm : GNOME 데스크톱의 디스플레이 매니저 CentOS 기반
 ```
 ## 24.05.16 네트워크 개념
 ```
