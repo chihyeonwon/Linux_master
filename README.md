@@ -1,4 +1,5 @@
 ## 시험일정
+![image](https://github.com/chihyeonwon/Linux_master/assets/58906858/00ca3be8-d19b-4dcf-a534-c76e0353b0ae)
 ![image](https://github.com/chihyeonwon/Linux_master/assets/58906858/268b183f-a8b7-47d7-a4e3-f30c901c4cd6)
 ```
 자유 소프트웨어인 리눅스를 공부할 수 있어서 좋다~
