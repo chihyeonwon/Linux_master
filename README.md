@@ -1160,12 +1160,45 @@ ssh - scp파일복사, sftp 파일전송, slogin alias지정
 ```
 ## 기출 10회 37/27
 ```
+dump 명령을 통한 백업 시 사용 주기를 매일 수행, 이틀에 한 번 수행, 덤프 수행 불가로 설정 가능하다.
 
+root 사용자가 kaituser 셸을 변경하는 과정
+chsh 사용자명 or chsh 사용자명 -s 변경셸명
 
+/etc/passwd 파일에서 사용자 로그인 셸이 기록되어 있는 곳 : 7번째 필드
+username, passwd, uid, gid, comment, homedirectory, loginshell
 
+NI 값 중에서 우선순위가 가장 낮은 게 할당되는 값
+-20 ~ 19 우선순위 범위
 
+우선순위가 높아진 상태를 의미하는 프로세스 상태 코드 값 : <
+우선순위가 낮아진 상태를 의미하는 프로세스 상태 코드 값 : N
 
+ps -A : System V 계열에서 모든 프로세스를 출력하는 명령이다.
+ps a : 터미널과 연관된 프로세스 출력
+ps -a : 터미널에 종속되지 않은 모든 프로세스 출력
+ps aux : 동작 중인 모든 프로세스를 소유자 정보와 함께 출력한다.
 
+pico 개발자 : aboi karsar
+리수느 토발즈 : 리눅스 커널
+리처드 스톨만 : emacs
+빌 조이 : vi
+브람 : vim
 
+rpm -qa  모든 패키지 출력, 아파치 데몬명 : httpd
+
+cron_3.0pl1-124_i386.deb : 이 패키지는 관리 도구로 dpkg, apt-get, aptitude 사용 가능
+
+SANE에 대한 설명 : GPL 라이센스, 이미지 관련 하드웨어 API, 스캐너 관련, 사용자 관련 명령이 있는 2개의 패키지
+XSANE - GTK+ 라이브로리로 생성
+
+GNOME에 포함되지 않는 프로그램 : Gwenview (KDE)
+GNOME : GIMP, eog, gedit
+
+게이트웨이 주소값 확인 : netstat
+
+이더넷과 가장 관련 있는 전송 기술 : csma/cd
+
+LISTEN : 서버에서 클라이언트로부터 들어오는 패킷을 위해 소켓을 열고 기다리는 상태이다.
 ```
 
