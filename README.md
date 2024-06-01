@@ -933,12 +933,86 @@ BlackBerry OS : 안드로이드 운영체제
 ```
 ## 기출 6회 28/19
 ```
-smbfs : 삼바 서버를 통해 윈도우 공유 폴도를 마운트하여 리눅스 디렉터리처럼 사용할 수 있다.
-삼바 마운트 디렉터리 : sbfs
+usrquota : 사용자 쿼터를 설정하기 위해 /etc/fstab에 설정하는 항목 값
 
-New shell : 변경셸 지정, chsh
+특정 파이션의 속성을 Raid로 변경하기 위해서는 t 명령을 누른 후에 fd 키를 눌러서 설정한다.
 
+파일의 허가권을 알지 못하는 상태에서 chmod 755 lin.txt 명령과 동일한 명령
+-> chmod u=rwx, go=rw lin.txt
 
+특수 권한인 Set-Bit를 활용한 사례로 가장 거리가 먼 것
+실행 파일에 Sticky Bit를 설정 -> 실행파일보다 파일 공유에 활용
+
+특수 권한인 Set-Bit가 설정된 파일로 알맞는 것
+/usr/bin/passwd
+
+설정된 umask의 값을 확인할 때 사용하는 명령
+umask -S
+
+관리자 계정으로 ihduser의 로그인 셸을 변경하고자 할 때 수정하는 파일
+-> etc/passwd
+
+alias 목록 표시 명령어 -> alias
+
+시그널 이름과 번호를 확인 -> kill -l
+
+daemon : 주기적이고 지속적인 서비스 요청을 처리하기 위해 계속 실행되는 프로세스 통칭 용어
+
+emacs는 강력한 질의 및 치환을 가지고 있다. esc 키 입력 후에 % 키를 누르면 화면 하단에 query replace: 프롬프트가
+나오면서 질의를 통한 치환을 진행할 수 있다.
+
+pico 에디터 : 구문강조 x
+
+질의를 통한 치환 기능 -> emacs
+
+.exrc : vi 에디터 실행시 지속적으로 지정한 설정을 이용
+
+yum 명령의 저장소 관련 파일들이 위치하는 디렉터리 : /etc/yum.repos.d
+
+기존에 생성된 ihd.tar파일에 lin.txt 파일을 추가한다.
+
+tar rvf -r : 추가
+
+totem 패키지를 설치하는 과정에서 질의 시 무조건 승낙하는 명령어
+yum install -y totem
+
+rpm 설치 관련 옵션으로 틀린 것
+-f 질의 관련
+
+kait.txt 파일 내용을 인쇄하기 위한 명령으로 갖아 거리가 먼 것
+cat kait.txt < /dev/lp0
+
+인쇄 하려면 >
+
+usb로 연결된 스캐너 검색 : sane-find-scanner -v
+직렬스캐너 검색 : sane-find-scanner-p
+
+xcam : GUI 기반 이미지 스캔, 뷰어
+
+Okular : 문서뷰어
+
+xauth list $DISPLAY : 지정된 표시장치의 쿠키 값 확인
+
+xhost : 접근할 수 있는 호스트 지정 및 해제
+
+NetBIOS : 세션층에서 TCP/IP 등을 연결하는 프로그램
+
+CIFS : 인터넷을 통해 원격지 컴퓨터상으로 서비스요청
+
+ssh -p : 포트 22가 아닌 다른 포트로 접속할 수 있게 함
+
+ssh 인증 파일의 경로 : ~.ssh/authorized_keys
+
+ss : 서버에 접속한 클라이언트의 ip주소 및 포트 번호 확인
+
+시스템에 설정된 ip주소를 확인하는 명령 : ip addr show
+
+etc/servies : 포트번호 관리
+
+임베디드 리눅스 : 커널과 루트 파일시스템 등 상대적으로 많은 메모리를 차이
+
+햐나의 작업을 여러 개로 구성된 노드을 이용해서 처리 -> 고성능 클러스터
+여러 대의 서버에 부하를 분산 -> 부하분산 클러스터
 ```
 ## 기출 7회 34/26
 ```
