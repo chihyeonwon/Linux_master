@@ -1016,7 +1016,52 @@ etc/servies : 포트번호 관리
 ```
 ## 기출 7회 34/26
 ```
+edquota posein 활성화 : 쿼터 설정화면
 
+fdsik : 모든 디스크의 파티션 설정 상황
+
+umount : 마운트 해제
+
+ls 파일이나 디렉터리의 소유권을 확인
+
+사용자가 로그인 직후에 부여된 셸 확인 명령이 아닌 것 : chsh -l : 설정가능한 셸확인
+
+사용 가능한 셸의 목록 : cat /etc/shells
+
+ps aux : 실제 실행 우선순위는 알 수 없다.
+
+top -t : cpu on/off
+top -m : 메모리 on/off
+
+jobs 명령 시 - 기호 붙은 것 : 앞으로 실행될것, + 실행중인것
++가 우선순위가 더높다.
+
+저장된 crontab 설정 파일을 삭제하기 전에 사용자에게 확인 : crontab -ir 사용자 확인 info
+
+top 명령 맨뒤 8080은 포트번호가 아니라 pid임
+
+./configure --prefix : 지정된 디렉터리에 소스 설치
+
+tar -J : xz 파일에 활용
+tar -j : bz2 파일에 활용
+
+NDMP : 백업과 복구 표준화 프로토콜
+
+cdparanoia : 음악 추출
+
+고수준의 라이브러리 : QT, GTK+, XT, Xaw, FLTK, TK
+
+X Protocol tcp포트 6000번
+
+ip 주소를 확인하는 명령어의 조합 : ip, ifconfig
+
+DQDB 프로토콜 제정 -> IEEE, IEEE802.6
+
+TCP/IP : 미국방성 연구, 컴퓨터 기종에 상관없이 정보 교환이 가능하게 해주는 통신 프로토콜
+
+직접 개발한 모바일 게임 앱을 사용자들에게 제공 : 아마존의 AWS
+
+로드밸런서 : 부하분산 클러스터
 ```
 ## 기출 8회 36/24
 ```
