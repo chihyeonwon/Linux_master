@@ -1,3 +1,5 @@
+## 가채점 85 
+
 ## 시험일정 6.8 1시50분까지
 ![image](https://github.com/chihyeonwon/Linux_master/assets/58906858/00ca3be8-d19b-4dcf-a534-c76e0353b0ae)
 ![image](https://github.com/chihyeonwon/Linux_master/assets/58906858/268b183f-a8b7-47d7-a4e3-f30c901c4cd6)
