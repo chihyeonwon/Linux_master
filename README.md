@@ -1,4 +1,5 @@
-## 가채점 85 
+## 24.06.28 합격 80점
+![image](https://github.com/chihyeonwon/Linux_master/assets/58906858/f6a43231-2df7-4978-bb61-b418d53ea76a)
 
 ## 시험일정 6.8 1시50분까지
 ![image](https://github.com/chihyeonwon/Linux_master/assets/58906858/00ca3be8-d19b-4dcf-a534-c76e0353b0ae)
