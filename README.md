@@ -1,3 +1,5 @@
+## 리눅스 명령어 복습
+
 ## 24.06.28 합격 80점
 ![image](https://github.com/chihyeonwon/Linux_master/assets/58906858/f6a43231-2df7-4978-bb61-b418d53ea76a)
 
